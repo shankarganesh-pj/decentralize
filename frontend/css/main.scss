@@ -1,0 +1,79 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
+$body-background-color: #fafafa;
+$navbar-height: 3em;
+
+@import "~bulma/bulma";
+
+$primary-color: #1EB31E;
+$body-background-color: red;
+
+nav.navbar {
+  border-bottom: 1px solid $grey-lighter;
+}
+
+.profile_container {
+  height: 300px;
+  width: 300px;
+  text-align:center;
+}
+
+.imagewall  {
+  .card {
+    margin-bottom: $size-3;
+  }
+}
+
+.container {
+	margin-bottom: 1rem;
+  width: auto;
+}
+
+button:disabled {
+  opacity: 0.5;
+ }
+
+@media(max-width: 767px) {
+  .blockstagram-columns {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
+
+.butt {
+   border: 1px outset red;
+   background-color: red;
+   text-color: white;
+   height:10px;
+   width:10px;
+   cursor:pointer;
+}
+.one{
+  
+  height:400;
+  width:300;
+
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.centered img {
+   
+    border-radius: 25%;
+}
+
+.gg {
+  position: absolute;
+  top: 50%;
+}
+
+.gg {
+  position: absolute;
+  top: -10%;
+}
